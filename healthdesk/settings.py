@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'landing',
     'Authentication',
     'phone_field',
+    'Desk',
     
 ]
 
