@@ -1,3 +1,4 @@
 from django.contrib import admin
-
+from Desk.models import Record
 # Register your models here.
+admin.site.register(Record)

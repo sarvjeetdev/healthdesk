@@ -1,7 +1,7 @@
 from django.db import models
-from .Authentication import User
+from Authentication.models import User
 from django.urls import reverse
-
+from ckeditor.fields import RichTextField
 
 class Record(models.Model):
     title = models.CharField(max_length=200)

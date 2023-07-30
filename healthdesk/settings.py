@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'Authentication',
     'phone_field',
     'Desk',
+    'ckeditor',
     
 ]
 
